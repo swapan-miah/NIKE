@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;900&display=swap");
+/* for our website body start code  */
+/* react code public css start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+#website-body {
+  width: 375px;
+  /* height: 100vh; */
+  background-color: #0d6efd;
+}
+/* react code public css end */
+/* for our website body End code  */
+
+/* Wellcome section start for our visitors */
+#wellcome {
+  background-color: #0d6efd;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#wellcome img {
+}
+/* Wellcome section End for our visitors */
+
+/* get start section start| slider */
+#getStart {
+  background: red;
+  position: relative;
+  height: 100vh;
+}
+#getStart #demo {
+  height: 100vh;
+}
+#getStart #demo .carousel-indicators {
+  bottom: 120px;
+}
+#getStart #demo .carousel-indicators button {
+}
+#getStart #demo .carousel-inner {
+}
+#getStart #demo.carousel-inner .carousel-item {
+}
+
+#getStart #demo .carousel-inner .carousel-item-1 {
+}
+/* #getStart #demo .carousel-inner .carousel-item-1 img {
+} */
+#getStart #demo .carousel-inner .carousel-item-1 {
+}
+#getStart #demo .carousel-inner .carousel-item-1 h3 {
+}
+#getStart #demo .carousel-inner .carousel-item-1 p {
+}
+
+#getStart #demo .carousel-inner .carousel-item-2 {
+}
+/* #getStart #demo .carousel-inner .carousel-item-2 img {
+} */
+#getStart #demo .carousel-inner .carousel-item-2 {
+  margin-top: 70px;
+  height: 500px;
+}
+#getStart #demo .carousel-inner .carousel-item-2 h3 {
+}
+#getStart #demo .carousel-inner .carousel-item-2 p {
+}
+
+#getStart #demo .carousel-inner .carousel-item-3 {
+}
+/* #getStart #demo .carousel-inner .carousel-item-3 img {
+} */
+#getStart #demo .carousel-inner .carousel-item-3 {
+}
+#getStart #demo .carousel-inner .carousel-item-3 h3 {
+}
+#getStart #demo .carousel-inner .carousel-item-3 p {
+}
+
+/* #getStart #demo .carousel-inner .carousel-item img {
+} */
+#getStart #demo .carousel-inner .carousel-item .shoesImg {
+  margin-top: -4px;
+  margin-left: 20px;
+}
+#getStart #demo .carousel-inner .carousel-item-1 .vector {
+  /* background: green; */
+  margin-top: -409px;
+  color: white;
+  /* font-weight: 900; */
+  width: 127%;
+}
+#getStart #demo .carousel-inner .carousel-item-2 .vector {
+  /* background: green; */
+  margin-top: -147px;
+  color: white;
+  /* font-weight: 900; */
+  width: 127%;
+}
+#getStart #demo .carousel-inner .carousel-item-3 .vector {
+  /* background: green; */
+  margin-top: -409px;
+  color: white;
+  /* font-weight: 900; */
+  width: 127%;
+}
+#getStart #demo .carousel-inner .carousel-item .draw {
+}
+#getStart #demo .carousel-inner .carousel-item .shedow {
+  /* background: yellow; */
+  position: relative;
+  top: -192px;
+  left: 32px;
+  right: 50;
+}
+/* #getStart #demo .carousel-inner .carousel-item .carousel-caption {
+} */
+#getStart #demo .carousel-inner .carousel-item .getStartOneCaption {
+  top: 87px;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ececec;
+}
+#getStart #demo .carousel-inner .carousel-item .getStartSecondCaption {
+  botton: 90 !important; /* padding-top: 14rem !important; */ /* color: green; */ /* background: yellow; */ /* z-index: 10; */
+  top: 270px;
+}
+#getStart #demo .carousel-inner .carousel-item .getStartthirdCaption {
+  top: 337px;
+}
+#getStart #demo .carousel-inner .carousel-item .carousel-caption h3 {
+}
+#getStart #demo .carousel-inner .carousel-item .carousel-caption p {
+}
+
+#getStart #demo .carousel-control-next {
+  left: 5%;
+  top: auto;
+  right: 5%;
+  bottom: 31px;
+  background: #ffffff;
+  width: 90%;
+  height: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 44px;
+  color: black;
+  opacity: 1;
+}
+#getStart #demo .carousel-control-next:hover {
+  opacity: 0.7;
+}
+
+/* get start section end| slider */
+
+/* sign in page start */
+#signIN {
+  height: 100vh;
+  position: relative;
+  padding: 30px;
+  background: #fff;
+}
+#signIN .backFromSignInPage {
+  margin-top: 0px;
+}
+#signIN .backFromSignInPage i {
+  outline: none;
+}
+#signIN .signInText h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: capitalize;
+  color: #2b2b2b;
+  margin-top: 20px;
+}
+#signIN .signInText p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  text-transform: capitalize;
+  color: #707b81;
+}
+#signIN form {
+}
+#signIN form .recovaryPassword {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+  text-align: right;
+
+  /* Light/Sub Text Color */
+  color: #707b81;
+}
+#signIN form div {
+}
+#signIN form div label {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  color: #2b2b2b;
+}
+#signIN form div label input {
+}
+#signIN form div label input {
+  width: 100%;
+  margin: 20px 0px;
+  padding: 16px 57px 16px 14px;
+  background: #f7f7f9;
+  border-radius: 14px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  text-transform: lowercase;
+  color: #6a6a6a;
+  opacity: 0.6;
+  outline: none;
+  border: none;
+}
+#signIN form .btn-singIn {
+  background: #0d6efd;
+  border-radius: 14px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: white;
+}
+#signIN form .btn-singIn-google {
+  background: #f7f7f9;
+  border-radius: 14px;
+  width: 100%;
+  padding: 12px;
+  border: noen;
+  border: none;
+  margin-top: 10px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  text-transform: capitalize;
+  color: #2b2b2b;
+}
+#signIN form .btn-singIn-google img {
+  margin-right: 10px;
+}
+#signIN .createOrNewAccount {
+}
+#signIN .createOrNewAccount p {
+  margin-top: 50px;
+  text-align: center;
+}
+#signIN .createOrNewAccount p span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  color: #6a6a6a;
+  margin-top: 70px;
+}
+
+/* sign in page end */
