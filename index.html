@@ -223,7 +223,85 @@
         </div>
       </section>
       <!-- ................
+        Sign Up page end 
+      ....................... -->
+
+      <!-- ---------------
+        Forgot page start  
+      ------------------ -->
+      <section id="Forgot">
+        <button class="backFromForgotPage">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <div class="ForgotText">
+          <h3>Forgot Password</h3>
+          <p>
+            Enter your Email account to reset <br />
+            your password
+          </p>
+        </div>
+        <form action="">
+          <div>
+            <input
+              type="email"
+              name="email"
+              value=""
+              id="email"
+              placeholder="..........@gmail.com"
+            />
+          </div>
+
+          <button class="btn-ResetPasswordForgot">Reset Password</button>
+        </form>
+
+        <!-- this box is visible only when user click reset password button -->
+        <div class="ResetPasswrodAlertBox">
+          <img src="img/email 1.svg" alt="" />
+          <h4>Check your email</h4>
+          <p>
+            We have send password recovery <br />
+            code in your email
+          </p>
+        </div>
+      </section>
+      <!-- ................
         Registration page end 
+      ....................... -->
+
+      <!-- ---------------
+        OTP Verification for Reset Password page start  
+      ------------------ -->
+      <section id="Otp_verify_Reset_Password">
+        <button class="back_From_Verify_Reset_Password_Page">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <div class="Otp_verify_Text">
+          <h3>OTP Verification</h3>
+          <p>
+            Please check your email to see the <br />
+            verification code
+          </p>
+        </div>
+        <form action="">
+          <div>
+            <p>OTP Code</p>
+            <div class="verification_code_box">
+              <div class="box-item">0</div>
+              <div class="box-item">9</div>
+              <div class="box-item">7</div>
+              <div class="box-item">4</div>
+            </div>
+          </div>
+
+          <button class="btn_Verify">Verify</button>
+          <div class="resend_code">
+            <p>Resend code to</p>
+            <p>00:30</p>
+          </div>
+        </form>
+      </section>
+      <!-- ................
+         OTP Verification for Reset Password page end 
       ....................... -->
     </section>
 

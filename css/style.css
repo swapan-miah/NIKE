@@ -30,7 +30,7 @@
 
 /* get start section start| slider */
 #getStart {
-  background: red;
+  background: #0464f1;
   position: relative;
   height: 100vh;
 }
@@ -415,4 +415,231 @@ sign in page end
 
 /*  ............
 sign Up page end
+................ */
+
+/* ---------------
+ Forgot page start 
+ ------------------*/
+
+#Forgot {
+  height: 100vh;
+  position: relative;
+  padding: 23px;
+  background: #fff;
+}
+#Forgot .backFromForgotPage {
+  margin-top: 0px;
+}
+#Forgot .backFromForgotPage i {
+  outline: none;
+}
+#Forgot .ForgotText h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: capitalize;
+  color: #2b2b2b;
+  margin-top: 37px;
+}
+#Forgot .ForgotText p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  text-transform: capitalize;
+  color: #707b81;
+}
+#Forgot form {
+}
+
+#Forgot form div {
+}
+
+#Forgot form div input {
+}
+#Forgot form div input {
+  width: 100%;
+  margin: 20px 0px;
+  padding: 16px 57px 16px 14px;
+  background: #f7f7f9;
+  border-radius: 14px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  text-transform: lowercase;
+  color: #6a6a6a;
+  opacity: 0.6;
+  outline: none;
+  border: none;
+}
+#Forgot form .btn-ResetPasswordForgot {
+  background: #0d6efd;
+  border-radius: 14px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: white;
+  z-index: -1;
+}
+
+#Forgot .visibleForRestBtnClick {
+  background: #e1b7b7;
+  border-radius: 16px;
+  padding: 4px;
+  margin-top: -74px;
+  position: relative;
+  z-index: 99;
+  display: block !important;
+}
+#Forgot .visibleForRestBtnClick img {
+  /* color: green; */
+  background: #0d6efd;
+  padding: 10px;
+  border-radius: 50%; /* text-align: center; */
+  display: block;
+  margin: 15px auto;
+}
+#Forgot .visibleForRestBtnClick h4 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  text-align: center;
+  text-transform: capitalize;
+  color: #2b2b2b;
+}
+#Forgot .visibleForRestBtnClick p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #707b81;
+}
+#Forgot .ResetPasswrodAlertBox {
+  display: none;
+}
+
+/*  ............
+Forgot page end
+................ */
+
+/* ---------------
+OTP Verification for Reset Password page start 
+ ------------------*/
+
+#Otp_verify_Reset_Password {
+  height: 100vh;
+  position: relative;
+  padding: 23px;
+  background: #fff;
+}
+#Otp_verify_Reset_Password .back_From_Verify_Reset_Password_Page {
+  margin-top: 0px;
+}
+#Otp_verify_Reset_Password .back_From_Verify_Reset_Password_Page i {
+  outline: none;
+}
+#Otp_verify_Reset_Password .Otp_verify_Text h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: capitalize;
+  color: #2b2b2b;
+  margin-top: 47px;
+}
+#Otp_verify_Reset_Password .Otp_verify_Text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  text-transform: capitalize;
+  color: #707b81;
+}
+#Otp_verify_Reset_Password form {
+}
+
+#Otp_verify_Reset_Password form div {
+}
+#Otp_verify_Reset_Password form div label {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  color: #2b2b2b;
+}
+
+#Otp_verify_Reset_Password form div p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+  /* identical to box height */ /* text-align: center; */
+  text-transform: capitalize;
+  color: #2b2b2b;
+}
+#Otp_verify_Reset_Password form div .verification_code_box {
+  display: flex;
+  justify-content: space-between;
+}
+#Otp_verify_Reset_Password form div .verification_code_box .box-item {
+  width: 50px;
+  background: #d1d2d4;
+  padding: 10px 20px;
+  gap: 12;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+#Otp_verify_Reset_Password .btn_Verify {
+  background: #0d6efd;
+  border-radius: 14px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: white;
+}
+#Otp_verify_Reset_Password form .resend_code {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+#Otp_verify_Reset_Password form .resend_code p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  /* Light/Sub Text Color */
+  color: #7d848d;
+}
+
+/*  ............
+OTP Verification for Reset Password page end
 ................ */
