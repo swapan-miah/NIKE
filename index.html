@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <!-- owl link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Nike</title>
   </head>
@@ -303,10 +318,136 @@
       <!-- ................
          OTP Verification for Reset Password page end 
       ....................... -->
+
+      <!-- ---------------
+        Home page start  
+      ------------------ -->
+      <section class="Home">
+        <div class="Home_header">
+          <div class="icon_ber">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <h2 class="Explore_header_Text">Explore</h2>
+          <div class="shop_icon">
+            <i class="fa-solid fa-bag-shopping"></i>
+          </div>
+        </div>
+        <div class="Home_search">
+          <div class="input">
+            <input type="text" />
+            <div class="search_icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <div class="tools">
+            <img src="./img/tools.png" alt="" />
+          </div>
+        </div>
+        <div class="category">
+          <h2>Select Category</h2>
+          <div class="owl_carousel">
+            <div class="owl-carousel owl-theme">
+              <div class="item"><h4>All Shoes</h4></div>
+              <div class="item"><h4>Outdoor</h4></div>
+              <div class="item"><h4>Tennis</h4></div>
+            </div>
+          </div>
+        </div>
+        <div class="Popular_Shoes">
+          <div class="Popular_Shoes_text">
+            <h3>Popular-Shoes</h3>
+            <p>See all</p>
+          </div>
+
+          <div class="Popular_Shoes_card">
+            <button>
+              <i class="fa-regular fa-heart"></i>
+            </button>
+            <img src="./img/Home/card_img_1.png" alt="" />
+            <p>Best Seller</p>
+            <p>Nike Jordan</p>
+            <p>$302.00</p>
+            <button class="Add_To_Card">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+          </div>
+          <div class="Popular_Shoes_card">
+            <button>
+              <i class="fa-regular fa-heart"></i>
+            </button>
+            <img src="./img/Home/card_img_2.png" alt="" />
+            <p>Best Seller</p>
+            <p>Nike Jordan</p>
+            <p>$302.00</p>
+            <button class="Add_To_Card">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+          </div>
+        </div>
+        <div class="New_Arrivals">
+          <div class="New_Arrivals_text">
+            <h3>New_Arrivals</h3>
+            <p>See all</p>
+          </div>
+          <div class="New_Arrivals_card">
+            <div class="details">
+              <p>Summer Sale</p>
+              <h2>15% OFF</h2>
+            </div>
+            <div class="img_section">
+              <div class="new"><img src="./img/Home/new.png" alt="" /></div>
+              <div class="shoes">
+                <img src="./img/Home/arrivals.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home_footer">
+          <div class="home_footer_container">
+            <div class="home_icon">
+              <i class="fa-solid fa-house"></i>
+            </div>
+            <div class="Love_icon">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="shop_img_footer">
+              <img src="./img/Home/shop footer.png" alt="" />
+            </div>
+            <div class="Notification_icon">
+              <i class="fa-regular fa-bell"></i>
+            </div>
+            <div class="User_icon">
+              <i class="fa-regular fa-user"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ................
+         Home page end 
+      ....................... -->
     </section>
 
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <!-- ----------------
+      owl script  start
+    ...................... -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- ----------------
+      owl script  End
+    ...................... -->
     <script src="js/main.js"></script>
   </body>
 </html>
