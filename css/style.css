@@ -643,3 +643,142 @@ OTP Verification for Reset Password page start
 /*  ............
 OTP Verification for Reset Password page end
 ................ */
+
+/* --------------------
+ Home page start 
+ ---------------------- */
+#Home {
+}
+#Home .wapper {
+}
+/* home header start */
+#Home .wapper .Home_header {
+}
+#Home .wapper .Home_header .icon_ber {
+}
+#Home .wapper .Home_header .icon_ber i {
+}
+#Home .wapper .Home_header .Explore_header_Text {
+}
+#Home .wapper .Home_header .shop_icon {
+}
+#Home .wapper .Home_header .shop_icon i {
+}
+/* home header end */
+
+/* Home_search start */
+#Home .wapper .Home_search {
+}
+#Home .wapper .Home_search .input {
+}
+#Home .wapper .Home_search .input input {
+}
+#Home .wapper .Home_search .input .search_icon {
+}
+#Home .wapper .Home_search .input .search_icon i {
+}
+#Home .wapper .Home_search .tools {
+}
+#Home .wapper .Home_search .tools img {
+}
+/* Home_search end */
+
+/* category start */
+#Home .wapper .category {
+}
+#Home .wapper .category h2 {
+}
+#Home .wapper .category .carousel {
+}
+#Home .wapper .category .carousel .owl-carousel {
+}
+#Home .wapper .category .carousel .owl-carousel .item {
+}
+#Home .wapper .category .carousel .owl-carousel .item h4 {
+}
+/* category end */
+
+/* Popular_Shoes start  */
+#Home .wapper .Popular_Shoes {
+}
+#Home .wapper .Popular_Shoes .Popular_Shoes_text {
+}
+#Home .wapper .Popular_Shoes .Popular_Shoes_text h3 {
+}
+#Home .wapper .Popular_Shoes .Popular_Shoes_text p {
+}
+#Home .wapper .Popular_Shoes .Popular_Shoes_card {
+}
+#Home .wapper .Popular_Shoes .Popular_Shoes_card .heart {
+}
+#Home .wapper .Popular_Shoes .Popular_Shoes_card .heart i {
+}
+#Home .wapper .Popular_Shoes .Popular_Shoes_card .Card_img {
+}
+#Home .wapper .Popular_Shoes .Popular_Shoes_card p {
+}
+#Home .wapper .Popular_Shoes .Popular_Shoes_card .Add_To_Card {
+}
+#Home .wapper .Popular_Shoes .Popular_Shoes_card .Add_To_Card i {
+}
+/* Popular_Shoes end  */
+
+/* New_Arrivals start  */
+#Home .wapper .New_Arrivals {
+}
+#Home .wapper .New_Arrivals .New_Arrivals_text {
+}
+#Home .wapper .New_Arrivals .New_Arrivals_text h3 {
+}
+#Home .wapper .New_Arrivals .New_Arrivals_text p {
+}
+#Home .wapper .New_Arrivals .New_Arrivals_card {
+}
+#Home .wapper .New_Arrivals .New_Arrivals_card .details {
+}
+#Home .wapper .New_Arrivals .New_Arrivals_card .details p {
+}
+#Home .wapper .New_Arrivals .New_Arrivals_card .details h2 {
+}
+#Home .wapper .New_Arrivals .New_Arrivals_card .img_section {
+}
+#Home .wapper .New_Arrivals .New_Arrivals_card .img_section .new {
+}
+#Home .wapper .New_Arrivals .New_Arrivals_card .img_section .new img {
+}
+#Home .wapper .New_Arrivals .New_Arrivals_card .img_section .shoes {
+}
+#Home .wapper .New_Arrivals .New_Arrivals_card .img_section .shoes img {
+}
+/* New_Arrivals end  */
+
+/* home footer start */
+#Home .wapper .home_footer {
+}
+#Home .wapper .home_footer .home_footer_container {
+}
+#Home .wapper .home_footer .home_footer_container .home_icon {
+}
+#Home .wapper .home_footer .home_footer_container .home_icon i {
+}
+#Home .wapper .home_footer .home_footer_container .Love_icon {
+}
+#Home .wapper .home_footer .home_footer_container .Love_icon i {
+}
+#Home .wapper .home_footer .home_footer_container .shop_img_footer {
+}
+#Home .wapper .home_footer .home_footer_container .shop_img_footer img {
+}
+#Home .wapper .home_footer .home_footer_container .Notification_icon {
+}
+#Home .wapper .home_footer .home_footer_container .Notification_icon i {
+}
+#Home .wapper .home_footer .home_footer_container .User_icon {
+}
+#Home .wapper .home_footer .home_footer_container .User_icon i {
+}
+/* home footer end */
+
+/* ..............
+ Home page end   
+ ................. */
