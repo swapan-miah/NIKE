@@ -148,13 +148,14 @@
   bottom: 31px;
   background: #ffffff;
   width: 90%;
-  height: 50px;
+  height: 35px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 34px;
+  font-size: 23px;
   line-height: 44px;
   color: black;
   opacity: 1;
+  border-radius: 16px;
 }
 #getStart #demo .carousel-control-next:hover {
   opacity: 0.7;
@@ -171,6 +172,9 @@
 }
 #signIN .backFromSignInPage {
   margin-top: 0px;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 50%;
 }
 #signIN .backFromSignInPage i {
   outline: none;
@@ -274,7 +278,7 @@
 #signIN .createOrNewAccount {
 }
 #signIN .createOrNewAccount p {
-  margin-top: 50px;
+  margin-top: 35px;
   text-align: center;
 }
 #signIN .createOrNewAccount p span {
@@ -305,6 +309,9 @@ sign in page end
 }
 #signUp .backFromSignUpPage {
   margin-top: 0px;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 50%;
 }
 #signUp .backFromSignUpPage i {
   outline: none;
@@ -313,13 +320,14 @@ sign in page end
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 29px;
   line-height: 38px;
   /* identical to box height */
   text-align: center;
   text-transform: capitalize;
   color: #2b2b2b;
-  /* margin-top: 0px; */
+  margin-top: 7px;
+  margin-left: 31px;
 }
 #signUp .regiText p {
   font-family: "Poppins";
@@ -342,7 +350,7 @@ sign in page end
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 4px;
   /* identical to box height, or 125% */
   color: #2b2b2b;
 }
@@ -351,7 +359,7 @@ sign in page end
 #signUp form div label input {
   width: 100%;
   margin: 20px 0px;
-  padding: 16px 57px 16px 14px;
+  padding: 9px 57px 16px 10px;
   background: #f7f7f9;
   border-radius: 14px;
   font-family: "Poppins";
@@ -370,7 +378,7 @@ sign in page end
   background: #0d6efd;
   border-radius: 14px;
   width: 100%;
-  padding: 10px;
+  padding: 6px;
   border: none;
   color: white;
 }
@@ -381,7 +389,7 @@ sign in page end
   padding: 12px;
   border: noen;
   border: none;
-  margin-top: 10px;
+  margin-top: 7px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 600;
@@ -429,6 +437,9 @@ sign Up page end
 }
 #Forgot .backFromForgotPage {
   margin-top: 0px;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 50%;
 }
 #Forgot .backFromForgotPage i {
   outline: none;
@@ -550,6 +561,9 @@ OTP Verification for Reset Password page start
 }
 #Otp_verify_Reset_Password .back_From_Verify_Reset_Password_Page {
   margin-top: 0px;
+  border: none;
+  padding: 11px;
+  border-radius: 50%;
 }
 #Otp_verify_Reset_Password .back_From_Verify_Reset_Password_Page i {
   outline: none;
@@ -648,38 +662,90 @@ OTP Verification for Reset Password page end
  Home page start 
  ---------------------- */
 #Home {
+  /* padding: 16px; */
+  background: #f7f7f9;
+  /* height: 100vh; */
+  position: relative;
+  /* overflow: hidden; */
+}
+#Home button {
+  border: none;
+  background-color: transparent;
+  /* text-align: right; */
 }
 #Home .wapper {
+  padding: 15px;
+  overflow: hidden;
 }
 /* home header start */
 #Home .wapper .Home_header {
+  display: flex;
+  justify-content: space-between;
 }
 #Home .wapper .Home_header .icon_ber {
 }
 #Home .wapper .Home_header .icon_ber i {
+  font-size: 25px;
 }
 #Home .wapper .Home_header .Explore_header_Text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* #2B2B2B */
+  color: #2b2b2b;
 }
 #Home .wapper .Home_header .shop_icon {
 }
 #Home .wapper .Home_header .shop_icon i {
+  font-size: 25px;
 }
 /* home header end */
 
 /* Home_search start */
 #Home .wapper .Home_search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4px;
+  position: relative;
 }
 #Home .wapper .Home_search .input {
+  /* display: flex; */
+  width: 80%;
 }
 #Home .wapper .Home_search .input input {
+  width: 100%;
+  border-radius: 30px;
+  outline: none;
+  font-size: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+  border-radius: 14px;
+  magin-top: 20px;
+  /* margin-top: 9px; */
+  /* padding-left: 40px; */
+  padding: 5px;
+  padding-left: 40px;
 }
 #Home .wapper .Home_search .input .search_icon {
 }
 #Home .wapper .Home_search .input .search_icon i {
+  /* margin-top: -38px; */
+  position: absolute;
+  top: 18px;
+  left: 16px;
 }
 #Home .wapper .Home_search .tools {
 }
 #Home .wapper .Home_search .tools img {
+  width: 79%;
 }
 /* Home_search end */
 
@@ -687,14 +753,38 @@ OTP Verification for Reset Password page end
 #Home .wapper .category {
 }
 #Home .wapper .category h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* #2B2B2B */
+  color: #2b2b2b;
 }
 #Home .wapper .category .carousel {
+  margin-top: 14px;
 }
 #Home .wapper .category .carousel .owl-carousel {
+  /* padding: 10px; */
 }
 #Home .wapper .category .carousel .owl-carousel .item {
 }
 #Home .wapper .category .carousel .owl-carousel .item h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1px;
+
+  /* #2B2B2B */
+  color: #040404;
+  padding: 10px 0px;
+  cursor: pointer;
 }
 /* category end */
 
@@ -702,24 +792,106 @@ OTP Verification for Reset Password page end
 #Home .wapper .Popular_Shoes {
 }
 #Home .wapper .Popular_Shoes .Popular_Shoes_text {
+  display: flex;
+  justify-content: space-between;
 }
 #Home .wapper .Popular_Shoes .Popular_Shoes_text h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* #2B2B2B */
+  color: #2b2b2b;
 }
 #Home .wapper .Popular_Shoes .Popular_Shoes_text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+  text-align: right;
+
+  /* #0D6EFD */
+  color: #0d6efd;
 }
-#Home .wapper .Popular_Shoes .Popular_Shoes_card {
+#Home .wapper .Popular_Shoes .cards-group {
+  display: flex;
+  justify-content: space-between;
 }
-#Home .wapper .Popular_Shoes .Popular_Shoes_card .heart {
+#Home .wapper .Popular_Shoes .cards-group .Popular_Shoes_card {
+  width: 48%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 15px;
+  padding: 10px;
+  padding-bottom: 6px;
+  position: relative;
+  overflow: hidden;
 }
-#Home .wapper .Popular_Shoes .Popular_Shoes_card .heart i {
+#Home .wapper .Popular_Shoes .cards-group .Popular_Shoes_card:hover {
+  box-shadow: 5px 5px #ff0000c2;
 }
-#Home .wapper .Popular_Shoes .Popular_Shoes_card .Card_img {
+#Home .wapper .Popular_Shoes .cards-group .Popular_Shoes_card .heart {
 }
-#Home .wapper .Popular_Shoes .Popular_Shoes_card p {
+#Home .wapper .Popular_Shoes .cards-group .Popular_Shoes_card .heart i {
+  /* border: none; */ /* outline: none; */
 }
-#Home .wapper .Popular_Shoes .Popular_Shoes_card .Add_To_Card {
+#Home .wapper .Popular_Shoes .cards-group .Popular_Shoes_card .Card_img {
+  margin-top: -26px;
 }
-#Home .wapper .Popular_Shoes .Popular_Shoes_card .Add_To_Card i {
+#Home .wapper .Popular_Shoes .cards-group .Popular_Shoes_card .p1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 0px;
+  /* identical to box height, or 133% */
+  text-transform: uppercase;
+
+  /* #0D6EFD */
+  color: #0d6efd;
+}
+#Home .wapper .Popular_Shoes .cards-group .Popular_Shoes_card .p2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 7px;
+  /* identical to box height, or 125% */
+
+  /* #6A6A6A */
+  color: #6a6a6a;
+}
+#Home .wapper .Popular_Shoes .cards-group .Popular_Shoes_card .p3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 7px;
+  /* identical to box height, or 114% */
+
+  /* #2B2B2B */
+  color: #2b2b2b;
+}
+#Home .wapper .Popular_Shoes .cards-group .Popular_Shoes_card .Add_To_Card {
+  margin: 0 0 0 auto;
+  background: #0d6efd;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: -3px;
+  font-size: 25px;
+  right: -2px;
+  color: white;
+  font-weight: 900;
+  border-radius: 30px 0px 0px 0px;
+}
+#Home .wapper .Popular_Shoes .cards-group .Popular_Shoes_card .Add_To_Card i {
 }
 /* Popular_Shoes end  */
 
@@ -727,53 +899,125 @@ OTP Verification for Reset Password page end
 #Home .wapper .New_Arrivals {
 }
 #Home .wapper .New_Arrivals .New_Arrivals_text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 #Home .wapper .New_Arrivals .New_Arrivals_text h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* #2B2B2B */
+  color: #2b2b2b;
 }
 #Home .wapper .New_Arrivals .New_Arrivals_text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+  text-align: right;
+
+  /* #0D6EFD */
+  color: #0d6efd;
 }
 #Home .wapper .New_Arrivals .New_Arrivals_card {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 20px 5px;
+  border-radius: 16px;
+  margin: 10px 0px;
 }
 #Home .wapper .New_Arrivals .New_Arrivals_card .details {
+  display: flex;
+  flex-direction: column; /* align-items: center; */
+  justify-content: center;
 }
 #Home .wapper .New_Arrivals .New_Arrivals_card .details p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  color: #3b3b3b;
 }
 #Home .wapper .New_Arrivals .New_Arrivals_card .details h2 {
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 37px;
+  /* identical to box height, or 102% */
+  letter-spacing: -0.02em;
+  color: #674dc5;
 }
 #Home .wapper .New_Arrivals .New_Arrivals_card .img_section {
+  margin-right: 30px;
 }
 #Home .wapper .New_Arrivals .New_Arrivals_card .img_section .new {
 }
 #Home .wapper .New_Arrivals .New_Arrivals_card .img_section .new img {
+  /* margin-right: 92px; */
 }
 #Home .wapper .New_Arrivals .New_Arrivals_card .img_section .shoes {
 }
 #Home .wapper .New_Arrivals .New_Arrivals_card .img_section .shoes img {
+  /* height: 79px; */
 }
 /* New_Arrivals end  */
 
 /* home footer start */
 #Home .wapper .home_footer {
+  /* display: flex; */
+  margin-top: 20px;
+  /* background: red; */
+  box-shadow: 3.5px 0px 22px rgb(131 170 209 / 12%);
 }
 #Home .wapper .home_footer .home_footer_container {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+#Home .wapper .home_footer .home_footer_container div {
+  /* display: flex; */
+  width: 42%;
+  text-align: center;
 }
 #Home .wapper .home_footer .home_footer_container .home_icon {
+  cursor: pointer;
 }
 #Home .wapper .home_footer .home_footer_container .home_icon i {
 }
 #Home .wapper .home_footer .home_footer_container .Love_icon {
+  cursor: pointer;
 }
 #Home .wapper .home_footer .home_footer_container .Love_icon i {
 }
 #Home .wapper .home_footer .home_footer_container .shop_img_footer {
 }
 #Home .wapper .home_footer .home_footer_container .shop_img_footer img {
+  display: block;
+  height: 94px;
+  cursor: pointer;
+  /* margin-top: -32px; */
 }
 #Home .wapper .home_footer .home_footer_container .Notification_icon {
+  cursor: pointer;
 }
 #Home .wapper .home_footer .home_footer_container .Notification_icon i {
 }
 #Home .wapper .home_footer .home_footer_container .User_icon {
+  cursor: pointer;
 }
 #Home .wapper .home_footer .home_footer_container .User_icon i {
 }

@@ -321,6 +321,8 @@
 
       <!-- ---------------
         Home page start  
+        # এই হোম পেইজ এর header & footer fix থাকবে। তবে মাঝে একটা কনটেইনার থাকবে।
+        পরবর্তীতে যদি কাজ কর তাহলে এই বিষয়টি ঠিক করে নিবে।
       ------------------ -->
       <section id="Home">
         <div class="wapper">
@@ -346,7 +348,7 @@
           </div>
           <div class="category">
             <h2>Select Category</h2>
-            <div class="owl_carousel">
+            <div class="carousel">
               <div class="owl-carousel owl-theme">
                 <div class="item"><h4>All Shoes</h4></div>
                 <div class="item"><h4>Outdoor</h4></div>
@@ -360,29 +362,31 @@
               <p>See all</p>
             </div>
 
-            <div class="Popular_Shoes_card">
-              <button>
-                <i class="fa-regular fa-heart"></i>
-              </button>
-              <img src="./img/Home/card_img_1.png" alt="" />
-              <p>Best Seller</p>
-              <p>Nike Jordan</p>
-              <p>$302.00</p>
-              <button class="Add_To_Card">
-                <i class="fa-solid fa-plus"></i>
-              </button>
-            </div>
-            <div class="Popular_Shoes_card">
-              <button>
-                <i class="fa-regular fa-heart"></i>
-              </button>
-              <img src="./img/Home/card_img_2.png" alt="" />
-              <p>Best Seller</p>
-              <p>Nike Jordan</p>
-              <p>$302.00</p>
-              <button class="Add_To_Card">
-                <i class="fa-solid fa-plus"></i>
-              </button>
+            <div class="cards-group">
+              <div class="Popular_Shoes_card">
+                <button class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+                <img src="./img/Home/card_img_1.png" class="Card_img" alt="" />
+                <p class="p1">Best Seller</p>
+                <p class="p2">Nike Jordan</p>
+                <p class="p3">$302.00</p>
+                <button class="Add_To_Card">
+                  <i class="fa-sharp fa-regular fa-plus"></i>
+                </button>
+              </div>
+              <div class="Popular_Shoes_card">
+                <button class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+                <img src="./img/Home/card_img_2.png" class="Card_img" alt="" />
+                <p class="p1">Best Seller</p>
+                <p class="p2">Nike Jordan</p>
+                <p class="p3">$302.00</p>
+                <button class="Add_To_Card">
+                  <i class="fa-sharp fa-regular fa-plus"></i>
+                </button>
+              </div>
             </div>
           </div>
           <div class="New_Arrivals">
