@@ -11,7 +11,7 @@
 #website-body {
   width: 375px;
   /* height: 100vh; */
-  background-color: #0d6efd;
+  /* background-color: #0d6efd; */
 }
 /* react code public css end */
 /* for our website body End code  */
@@ -1026,3 +1026,194 @@ OTP Verification for Reset Password page end
 /* ..............
  Home page end   
  ................. */
+
+/* -----------
+Details Page start  
+-------------------*/
+#Details {
+  background: #f7f7f9;
+}
+#Details .Details_wapper {
+  padding: 15px;
+}
+
+#Details .Details_wapper .Details_header {
+  display: flex;
+  justify-content: space-between;
+}
+#Details .Details_wapper .Details_header .icon_ber {
+  margin-top: 0px;
+  border: none;
+  padding: 11px;
+  border-radius: 50%;
+  background: #fff;
+}
+#Details .Details_wapper .Details_header .icon_ber i {
+  margin-top: 0px;
+  border: none;
+  /* padding: 11px; */
+  border-radius: 50%;
+  font-size: 16px;
+}
+#Details .Details_wapper .Details_header .Explore_header_Text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  /* #2B2B2B */
+  color: #2b2b2b; /* display: block; */ /* align-items: center; */
+  margin-top: 15px;
+}
+#Details .Details_wapper .Details_header .shop_icon {
+  padding: 10px;
+  background: #fff;
+  border-radius: 50%;
+}
+#Details .Details_wapper .Details_header .shop_icon i {
+  font-size: 16px; /* background: #fff; */
+}
+#Details .Details_wapper .Details_main {
+}
+#Details .Details_wapper .Details_main .D_main_heading_text {
+  margin-top: 25px;
+}
+#Details .Details_wapper .Details_main .D_main_heading_text h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  /* #2B2B2B */
+  color: #2b2b2b;
+}
+#Details .Details_wapper .Details_main .D_main_heading_text p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* #707B81 */
+  color: #707b81;
+}
+#Details .Details_wapper .Details_main .Details_Show_img {
+}
+#Details .Details_wapper .Details_main .Details_Show_img .show_img {
+  border: 2px solid gold;
+  margin-top: 30px;
+  border-radius: 16px;
+  position: relative;
+  height: 206px;
+  width: 100;
+  overflow: hidden;
+}
+
+#Details
+  .Details_wapper
+  .Details_main
+  .Details_Show_img
+  .show_img
+  .show_img_item {
+  /* height: 220px; */
+  width: 100%;
+  padding-bottom: -30px;
+  position: absolute;
+  /* display: block; */
+  top: -120px;
+}
+
+#Details .Details_wapper .Details_main .Details_Show_img .Details_img_group {
+  display: flex;
+  margin-top: 30px;
+}
+#Details
+  .Details_wapper
+  .Details_main
+  .Details_Show_img
+  .Details_img_group
+  .Details_img_item {
+  width: 70px;
+  background: #fff;
+  /* gap: 2px; */
+  margin: 5px;
+  border-radius: 16px;
+}
+#Details
+  .Details_wapper
+  .Details_main
+  .Details_Show_img
+  .Details_img_group
+  .Details_img_item
+  img {
+  /* width: 47px; */
+  width: 100%;
+}
+#Details .Details_wapper .Details_main .Product_Deatails_text {
+}
+#Details .Details_wapper .Details_main .Product_Deatails_text .Deatails_text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  text-transform: capitalize;
+
+  /* #707B81 */
+  color: #707b81;
+}
+#Details .Details_wapper .Details_main .Product_Deatails_text .read_more {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height, or 150% */
+  text-transform: capitalize;
+
+  /* #0D6EFD */
+  color: #0d6efd;
+  text-align: right;
+  marg-top: -10px; /* margin-top: 0px !important; */
+}
+#Details .Details_wapper .Details_footer {
+}
+#Details .Details_wapper .Details_footer .Details_footer_container {
+  display: flex;
+  justify-content: space-around;
+  /* background: red; */
+  align-items: end;
+  margin-top: 30px;
+}
+#Details .Details_wapper .Details_footer .Details_footer_container .Love_icon {
+}
+#Details .Details_wapper .Details_footer .Details_footer_container .Love_icon {
+  padding: 15px;
+  background: #fff;
+  border-radius: 40px 42px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  height: 50px;
+  width: 50px;
+}
+#Details
+  .Details_wapper
+  .Details_footer
+  .Details_footer_container
+  .D_Add_To_Card {
+  padding: 15px 42px;
+  background: #1a73e8;
+  border-radius: 16px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* ............
+Details Page end  
+................*/
